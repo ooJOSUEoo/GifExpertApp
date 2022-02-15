@@ -15,3 +15,39 @@ input {
     padding: 5px 10px;
     background-color: darkgrey;
 }
+
+.card {
+    align-content: center;
+    border: 1px solid gray;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    max-width: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 10px;
+
+}
+
+.card:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+}
+
+.card p {
+    padding: 5px;
+    text-align: center;
+}
+
+.card img {
+    max-height: 170px;
+}
+
+.card-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
