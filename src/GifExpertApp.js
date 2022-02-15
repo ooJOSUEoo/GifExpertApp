@@ -14,7 +14,7 @@ export const GifExpertApp = () => {
   return (
     <>
         <h1>GifExpertApp</h1>
-        <AddCategory />
+        <AddCategory setcategories={setcategories} />
         <hr/>
 
         <h2>Categories</h2>
