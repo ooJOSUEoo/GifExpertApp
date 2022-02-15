@@ -1,7 +1,17 @@
-*{
+* {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body{
+body {
     padding: 60px;
+    background-color: black;
+    color: aliceblue;
+}
+
+input {
+    color: aqua;
+    font-size: 1.2rem;
+    width: calc(100% - 24px);
+    padding: 5px 10px;
+    background-color: darkgrey;
 }
