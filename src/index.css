@@ -9,11 +9,13 @@ body {
 }
 
 input {
-    color: aqua;
-    font-size: 1.2rem;
+    color: white;
+    font-size: 1.4rem;
     width: calc(100% - 24px);
     padding: 5px 10px;
     background-color: darkgrey;
+
+    -webkit-text-stroke: 1px black;
 }
 
 .card {
